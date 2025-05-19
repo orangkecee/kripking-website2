@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KripKing - Keripik Singkong Terbaik</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff8e1;
+      color: #5d4037;
+    }
+    header {
+      background: #ffb74d;
+      padding: 20px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 3px;
+      color: #4e342e;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .hero img {
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    .hero-text {
+      flex: 1;
+    }
+    .hero-text h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #bf360c;
+    }
+    .hero-text p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      color: #6d4c41;
+    }
+    .btn-order {
+      margin-top: 20px;
+      background: #d84315;
+      color: white;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .btn-order:hover {
+      background: #bf360c;
+    }
+    section.flavors {
+      margin-bottom: 50px;
+    }
+    section.flavors h3 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #bf360c;
+    }
+    .flavor-list {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+    .flavor-item {
+      background: #ffe0b2;
+      padding: 15px 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      width: 150px;
+      text-align: center;
+      font-weight: 600;
+      color: #5d4037;
+      cursor: default;
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+    .flavor-item:hover {
+      background: #ffcc80;
+    }
+    footer {
+      background: #ffb74d;
+      padding: 15px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #4e342e;
+      box-shadow: 0 -4px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    kripking
+  </header>
+  <main>
+    <div class="hero">
+      <img src="https://images.unsplash.com/photo-1603079830385-0e1982d7a438?auto=format&fit=crop&w=400&q=80" alt="Keripik Singkong KripKing" />
+      <div class="hero-text">
+        <h2>Keripik Singkong Renyah dan Gurih</h2>
+        <p>KripKing hadir dengan cita rasa autentik dan kualitas terbaik. Dibuat dari singkong pilihan, digoreng sempurna dengan rasa yang bikin nagih. Cocok untuk cemilan setiap saat, dari santai di rumah sampai teman nongkrong.</p>
+        <a href="#order" class="btn-order">Pesan Sekarang</a>
+      </div>
+    </div>
+
+    <section class="flavors">
+      <h3>Varian Rasa</h3>
+      <div class="flavor-list">
+        <div class="flavor-item">Original</div>
+        <div class="flavor-item">Balado</div>
+        <div class="flavor-item">Keju</div>
+        <div class="flavor-item">Pedas Manis</div>
+      </div>
+    </section>
+
+    <section id="order">
+      <h3>Order KripKing</h3>
+      <p>Untuk pemesanan dan informasi lebih lanjut, hubungi kami di WhatsApp:</p>
+      <p><a href="https://wa.me/6281234567890" target="_blank" style="color:#d84315; font-weight:700; text-decoration:none;">+62 812-3456-7890</a></p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 kripking | snack keripik singkong keren
+  </footer>
+</body>
+</html>
